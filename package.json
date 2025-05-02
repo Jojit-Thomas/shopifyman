@@ -1,6 +1,6 @@
 {
   "name": "shopifyman",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CLI tool to manage multiple Shopify partner account sessions",
   "main": "dist/cli/index.js",
   "type": "module",
