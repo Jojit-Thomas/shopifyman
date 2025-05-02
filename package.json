@@ -5,7 +5,7 @@
   "main": "dist/cli/index.js",
   "type": "module",
   "bin": {
-    "shopifyman": "./dist/cli/index.js"
+    "shopifyman": "dist/cli/index.js"
   },
   "scripts": {
     "start": "tsx src/cli/index.ts",
@@ -23,8 +23,7 @@
   "dependencies": {
     "conf": "^13.1.0",
     "inquirer": "^12.6.0",
-    "open": "^10.1.2",
-    "shopifyman": "link:"
+    "open": "^10.1.2"
   },
   "devDependencies": {
     "@types/node": "^22.15.3",
