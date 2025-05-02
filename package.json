@@ -1,0 +1,34 @@
+{
+  "name": "shopifyman",
+  "version": "1.0.0",
+  "description": "A CLI tool to manage multiple Shopify partner account sessions",
+  "main": "dist/cli/index.js",
+  "type": "module",
+  "bin": {
+    "shopifyman": "./dist/cli/index.js"
+  },
+  "scripts": {
+    "start": "tsx src/cli/index.ts",
+    "build": "tsc",
+    "dev": "tsx watch src/cli/index.ts"
+  },
+  "keywords": [
+    "shopify",
+    "cli",
+    "login",
+    "session"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "conf": "^13.1.0",
+    "inquirer": "^12.6.0",
+    "open": "^10.1.2",
+    "shopifyman": "link:"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  }
+}
